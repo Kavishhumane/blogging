@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="download.jpeg" alt="">
+        <h1>Blog</h1>
+
+        <label for="postTitle">Title:</label>
+        <input type="text" id="postTitle" class="inputField"><br>
+
+        <label for="postContent">Content:</label><br>
+        <textarea id="postContent" class="inputField"></textarea><br>
+
+        <label for="postImage">Image URL:</label>
+	<img src="" alt="">
+        <input type="text" id="postImage" class="inputField"><br>
+
+        <label for="postVideo">Video URL:</label> 
+        <input type="text" id="postVideo" class="inputField" >
+	<br>
+	
+        <button onclick="addPost()">Add Post</button>
+
+        <div id="blogPosts"></div>
+    </div>
+
+    <script src="b.js"></script>
+</body>
+</html>
